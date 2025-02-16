@@ -6,7 +6,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>portfolio_amewuga</title>
 		<meta name="description" content="" />
+
+		<!-- ===== CSS Here ===== -->
 		<link rel="stylesheet" href="assets/css/styles.css" />
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+
+		<link rel="stylesheet" href="assets/css/themify-icons.css" />
+		<link rel="stylesheet" href="assets/css/slider.css" />
+		<!-- ===== CSS Here ===== -->
+
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -36,13 +45,29 @@
 			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 			crossorigin="anonymous"
 		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+		<script src="/assets/js/main.js"></script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 			crossorigin="anonymous"
 		></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-		<script src="/assets/js/main.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<!-- ? Preloader Start -->
+		<!-- <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+					<img src="assets/img/icon/loader.png" alt="Loading...">
+                </div>
+            </div>
+        </div>
+    </div> -->
+		<!-- Preloader Start -->
 
 		<!-- ===== Nav Bar Start ===== -->
 		<header>
@@ -126,6 +151,7 @@
 		</div>
 		<!-- ===== Intro Skew End ===== -->
 
+		<!-- ===== Quote ===== -->
 		<div class="container-fluid p-4">
 			<div class="about-mf box-shadow-full shadow">
 				<div class="card-header text-center">
@@ -141,6 +167,7 @@
 				</div>
 			</div>
 		</div>
+		<!-- ===== Quote End ===== -->
 
 		<!-- ===== About Skew Start ===== -->
 		<section id="about" class="about-mf sect-pt4 route">
@@ -235,12 +262,12 @@
 											use to create engaging and effective learning experiences.
 										</p>
 									</div>
-									<p>
+									<p class="lead">
 										Feel free to explore the different sections to learn more
 										about my professional background, teaching philosophy, and
-										the resources I’ve developed. Thank you for visiting, and I
-										hope this portfolio provides insight into my passion for
-										education and my dedication to lifelong learning.
+										the resources I’ve developed. <br />Thank you for visiting,
+										and I hope this portfolio provides insight into my passion
+										for education and my dedication to lifelong learning.
 									</p>
 									<!-- ===== Call-to-Action Buttons ===== -->
 									<div class="mt-4">
@@ -275,6 +302,7 @@
 										<div class="title-box-2">
 											<h5 class="title-left">PROFILE</h5>
 										</div>
+										<!-- ===== Curriculum Vitae ===== -->
 										<p class="lead"></p>
 										<h3>
 											<span><strong>Curriculum Vitae (CV)</strong></span>
@@ -436,6 +464,190 @@
 		</section>
 		<!-- ===== Profile End ===== -->
 
+		<!-- ===== Philosophy Intro Skew Start ===== -->
+		<div
+			id="home"
+			class="intro route bg-image"
+			style="
+				background-image: url(assets/img/books.jpg);
+				background-position: center top;
+			"
+		>
+			<div class="overlay-itro"></div>
+			<div class="intro-content display-table">
+				<div class="table-cell">
+					<div class="container">
+						<h1 class="intro-title mb-4">MY TEACHING PHILOSOPHY</h1>
+						<!-- <p class="intro-subtitle">
+							<span class="text-slider-items"
+								>Welcome to my Teaching Portfolio,Student Teacher, Web
+								Developer,Web Designer,Graphic Designer</span
+							><strong class="text-slider"></strong>
+						</p> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ===== Philosophy Intro Skew End ===== -->
+
+		<!-- ===== Statement of Teaching Philosophy Start ===== -->
+		<section id="profile" class="about-mf sect-pt4 route">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="box-shadow-full shadow">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="about-me pt-4 pt-md-0">
+										<div class="title-box-2">
+											<h5 class="title-left">
+												STATEMENT OF TEACHING PHILOSOPHY
+											</h5>
+										</div>
+										<!-- ===== Statement of Teaching Philosophy ===== -->
+										<p class="lead"></p>
+										<h3>
+											<span><strong>Teaching Philosophy</strong></span>
+										</h3>
+										<p>
+											Below is a summarized version of my teaching philosophy.
+											For a detailed Statement, you can download the PDF
+											version.
+											<br />Kindly click the button below to download.
+										</p>
+
+										<!-- ===== Introduction End ===== -->
+										<h4 class="mt-4 lead-two">INTRODUCTION</h4>
+										<p class="lead">
+											Teaching, for me, is more than a profession. It is a
+											calling to inspire and empower learners to discover their
+											unique potential. Growing up, I viewed education as a
+											societal obligation, a means to excel academically, and a
+											pathway to meet expectations. Over time, however, I
+											realized that true education transcends the confines of
+											traditional schooling. It is not merely about meeting
+											minimum standards or following a prescribed curriculum;
+											rather, it is about nurturing curiosity, fostering
+											resilience, and equipping learners with the skills and
+											mindset to thrive in an ever-changing world.
+										</p>
+										<p class="lead">
+											I believe that education should be a transformative
+											experience, one that encourages learners to explore,
+											question, and construct their own understanding of the
+											world. My teaching philosophy is rooted in the belief that
+											every learner has unique strengths and potential, and it
+											is my role as an educator to create an environment where
+											these can flourish.
+										</p>
+										<!-- ===== Introduction Start ===== -->
+
+										<!-- ===== My Philosophy Start ===== -->
+										<h4 class="mt-4 lead-two">STATEMENT OF PHILOSOPHY</h4>
+										<p class="lead">
+											A teaching philosophy is a reflection of one’s core
+											beliefs about teaching and learning. For me, it is a
+											commitment to creating a learner-centered environment that
+											prioritizes the needs, interests, and abilities of each
+											student. I believe that education should be a
+											collaborative process, where the teacher acts as a
+											facilitator, guiding students as they construct their own
+											knowledge and develop critical thinking skills. This
+											approach aligns with the principles of constructivism,
+											which emphasizes the active role of learners in building
+											their understanding through experiences and interactions.
+										</p>
+										<p class="lead">
+											My teaching philosophy centers on creating a holistic,
+											inclusive, and engaging learning experience that empowers
+											students to develop essential skills, knowledge, and
+											values. I believe that learning is most effective when it
+											is experiential, collaborative, and tailored to individual
+											needs. By fostering a growth mindset and encouraging
+											curiosity, I aim to help students become lifelong learners
+											who are confident, resilient, and capable of solving
+											real-world problems.
+										</p>
+										<!-- ===== My Philosophy End ===== -->
+
+										<!-- ===== Validity Start ===== -->
+										<h4 class="mt-4 lead-two">VALIDITY</h4>
+										<p class="lead">
+											To support students in achieving their learning goals, a
+											teacher must employ strategies that foster active
+											participation and critical thinking. I agree with the
+											constructivist view that learning should involve creating
+											scenarios where students can interpret information based
+											on their own understanding rather than passively receiving
+											knowledge.
+										</p>
+										<p class="lead">
+											I draw inspiration from John Dewey’s philosophy of
+											pragmatism, which emphasizes the importance of
+											experiential learning and real-world applications. Dewey
+											believed that education should be rooted in practical
+											experiences, enabling students to connect their learning
+											to the world around them. Similarly, I strive to create
+											lessons that are relevant, hands-on, and meaningful,
+											allowing students to apply their knowledge in authentic
+											contexts.
+										</p>
+										<p class="lead">
+											Additionally, I align with Lev Vygotsky’s sociocultural
+											theory, which highlights the role of social interaction
+											and scaffolding in learning. I believe that students learn
+											best when they are supported by knowledgeable
+											others—whether teachers, peers, or mentors—who guide them
+											through their zone of proximal development. By providing
+											appropriate challenges and support, I help students reach
+											their full potential.
+										</p>
+										<!-- ===== Validity End ===== -->
+
+										<!-- ===== Download Statement Button Start -->
+										<div class="mt-4">
+											<a
+												href="path/to/your-cv.pdf"
+												class="btn btn-primary"
+												download
+												>Download Statement (PDF)</a
+											>
+										</div>
+										<!-- ===== Download Statement Button End -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ===== Statement of Teaching Philosophy End ===== -->
+
+		<!-- ===== Photographs Intro Skew Start ===== -->
+		<div
+			id="home"
+			class="intro route bg-image"
+			style="
+				background-image: url(assets/img/photograph.jpg);
+				background-position: center bottom;
+			"
+		>
+			<div class="overlay-itro"></div>
+			<div class="intro-content display-table">
+				<div class="table-cell">
+					<div class="container">
+						<h1 class="intro-title mb-4">
+							<span><strong>PHOTOGRAPHS</strong></span>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ===== Photographs Intro Skew End ===== -->
+
+		<!-- ===== Photographs End ===== -->
+
 		<!-- ===== Send a Message Start ===== -->
 		<section>
 			<div class="container py-5">
@@ -572,13 +784,18 @@
 		</section>
 		<!-- ===== Send a Message End ===== -->
 
-		<!-- Lightbox JS -->
+		<!-- ===== Lightbox JS ===== -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
 		<!-- jQuery (required for Fancybox) -->
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<!-- Fancybox JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+		<!-- Scroll Up -->
+		<div id="back-top">
+			<a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+		</div>
 	</body>
 	<!-- ===== Footer Start ===== -->
 	<footer class="bg-primary text-white py-3">
