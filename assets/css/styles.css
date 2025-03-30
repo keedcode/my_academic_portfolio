@@ -1,10 +1,18 @@
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: #f5f5f5;
-    color: #4e4e4e;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    position: relative;
 }
 
 h1,
@@ -13,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1e1e1e;
+    color: #000000;
 }
 
 a {
@@ -28,11 +36,11 @@ a:hover {
 }
 
 .lead {
-    text-align: justify;
+    text-align: left;
 }
 
 .lead-two {
-    text-align: justify;
+    text-align: left;
     text-decoration: underline;
 }
 
@@ -65,15 +73,6 @@ p {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-}
-
-body {
-    background: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    position: relative;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -113,6 +112,9 @@ body {
     text-decoration: underline;
 }
 
+.navbar-toggler-icon{
+    color: green;
+}
 
 /* Custom CSS for hover and active effects */
 .navbar-nav .nav-link {
@@ -442,3 +444,8 @@ body {
       transform: rotate(360deg);
     }
   } */
+
+/*======================================
+//--//-->   CAROUSEL
+======================================*/
+
